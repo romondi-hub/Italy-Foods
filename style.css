@@ -4,9 +4,12 @@ body{
 .course-item{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    color:aqua;
+    border-radius: 800%;
+    text-transform: capitalize;
+    
 }
-#p{
+p{
     text-align: center;
 }
 .course-item{
@@ -14,6 +17,11 @@ body{
     flex-direction: right;
     width: 300px;
 }
-#p{
-    text-align: center;
+img{
+    border-radius:500%;
+    float:right;
+    height: 300px;
+    width: 300px;
+
+
 }
