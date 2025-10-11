@@ -17,3 +17,32 @@ body{
     padding: 40px 20px;
     border-bottom: 1px solid;
 }
+.course-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+#about{
+display:flex;
+height: 300px;
+width: 300px;
+}
+h1{
+    text-align: center;
+}
+#p{
+    text-align: center;
+}
+.course-item{
+    display: flex;
+    flex-direction: right;
+    width: 300px;
+}
+#p{
+    text-align: center;
+}
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
