@@ -21,8 +21,9 @@ body{
     display: flex;
     flex-direction: column;
     width: 300px;
-#about{
-display:flex;
+}
+#about img{
+
 height: 300px;
 width: 300px;
 }
@@ -42,7 +43,7 @@ h1{
 }
 #testimonials{
     display: flex;
-    flex-direction: column;
+}
+#testimonials img{
     width: 300px;
 }
-
