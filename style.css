@@ -1,6 +1,17 @@
 body{
     font-family: sans-serif;
 }
+#about{
+display:flex;
+height: 300px;
+width: 300px;
+}
+h1{
+    text-align: center;
+}
+#p{
+    text-align: center;
+}
 #testimonials{
     display: flex;
     flex-direction: column;
