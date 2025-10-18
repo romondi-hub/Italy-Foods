@@ -17,6 +17,11 @@ body{
 .course-item{
     display: flex;
     flex-direction: column;
+    height: 200vw;
+    width: 50vw;
+    float: center;
+    
+}
 }
  head{
     color:aqua;
