@@ -47,3 +47,15 @@ h1{
 #testimonials img{
     width: 300px;
 }
+#nav ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgba(4, 4, 39);
+    padding:1%;
+    text-transform: capitalize;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+}
