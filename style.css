@@ -1,11 +1,93 @@
 body{
     font-family: sans-serif;
+    margin: 0;
+    background-color: darkslategray;
+    color:white;
 }
-#testimonials{
+#navbar{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+#home{
+    padding: 40px 20px;
+    border-bottom: 1px solid;
+}
+
+.course-item{
     display: flex;
     flex-direction: column;
     height: 200vw;
     width: 50vw;
     float: center;
     
+}
+}
+ head{
+    color:aqua;
+    border-radius: 800%;
+    text-transform: capitalize;
+}
+
+#about{
+    display:flex;
+    width: 100vw;
+}
+#about img{
+    width: 40vw;
+    padding: 2%;
+}
+.about-text{
+    margin-top: 2%;
+}
+#about p{
+    text-align: justify;
+    padding: 3%;
+}
+#courses{
+    display: flex;
+    flex-direction: right;
+    width: 300px;
+}
+
+.item{
+    width: 20vw;
+}
+.item img{
+    width: 20vw;
+    height: 200px;
+}
+#course{
+    justify-content: space-around;
+    display: flex
+}
+#p{
+    text-align: center;
+}
+#testimonials{
+    display: flex;
+    justify-content: space-around;
+}
+#testimonials img{
+    width: 300px;
+    border-radius: 25%;
+}
+.test{
+    width: 300px;   
+}
+#nav ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgba(4, 4, 39);
+    padding:1%;
+    text-transform: capitalize;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    text-align: center;
+    text-transform: capitalize;
 }
