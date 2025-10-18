@@ -25,19 +25,19 @@ body{
 }
 
 #about{
-display:flex;
-    width: 300px;
+    display:flex;
+    width: 100vw;
 }
 #about img{
-
-height: 300px;
-width: 300px;
+    width: 40vw;
+    padding: 2%;
 }
-h1{
-    text-align: center;
+.about-text{
+    margin-top: 2%;
 }
-p{
-    text-align: center;
+#about p{
+    text-align: justify;
+    padding: 3%;
 }
 #courses{
     display: flex;
@@ -45,22 +45,30 @@ p{
     width: 300px;
 }
 
-
-#course img{
-    border-radius:500%;
-    float:right;
-    height: 300px;
-    width: 300px;
+.item{
+    width: 20vw;
 }
-
+.item img{
+    width: 20vw;
+    height: 200px;
+}
+#course{
+    justify-content: space-around;
+    display: flex
+}
 #p{
     text-align: center;
 }
 #testimonials{
     display: flex;
+    justify-content: space-around;
 }
 #testimonials img{
     width: 300px;
+    border-radius: 25%;
+}
+.test{
+    width: 300px;   
 }
 #nav ul{
     display:flex;
@@ -73,4 +81,8 @@ p{
 #nav a{
     text-decoration: none;
     color: white;
+}
+.header{
+    text-align: center;
+    text-transform: capitalize;
 }
