@@ -17,6 +17,15 @@ body{
 .course-item{
     display: flex;
     flex-direction: column;
+}
+ head{
+    color:aqua;
+    border-radius: 800%;
+    text-transform: capitalize;
+}
+
+#about{
+display:flex;
     width: 300px;
 }
 #about img{
@@ -27,7 +36,7 @@ width: 300px;
 h1{
     text-align: center;
 }
-#p{
+p{
     text-align: center;
 }
 #courses{
@@ -35,10 +44,15 @@ h1{
     flex-direction: right;
     width: 300px;
 }
-#course img{
-    width: 300px;
 
+
+#course img{
+    border-radius:500%;
+    float:right;
+    height: 300px;
+    width: 300px;
 }
+
 #p{
     text-align: center;
 }
@@ -47,4 +61,16 @@ h1{
 }
 #testimonials img{
     width: 300px;
+}
+#nav ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgba(4, 4, 39);
+    padding:1%;
+    text-transform: capitalize;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
 }
