@@ -13,10 +13,7 @@ body{
     padding: 40px 20px;
     border-bottom: 1px solid;
 }
-#cotact{
-    padding: 40px 20px;
-    border-bottom: 1px solid;
-}
+
 .course-item{
     display: flex;
     flex-direction: column;
@@ -33,10 +30,14 @@ h1{
 #p{
     text-align: center;
 }
-.course-item{
+#courses{
     display: flex;
     flex-direction: right;
     width: 300px;
+}
+#course img{
+    width: 300px;
+
 }
 #p{
     text-align: center;
