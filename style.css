@@ -20,6 +20,15 @@ body{
 .course-item{
     display: flex;
     flex-direction: column;
+}
+ head{
+    color:aqua;
+    border-radius: 800%;
+    text-transform: capitalize;
+}
+
+#about{
+display:flex;
     width: 300px;
 }
 #about img{
@@ -30,7 +39,7 @@ width: 300px;
 h1{
     text-align: center;
 }
-#p{
+p{
     text-align: center;
 }
 .course-item{
@@ -38,6 +47,14 @@ h1{
     flex-direction: right;
     width: 300px;
 }
+
+img{
+    border-radius:500%;
+    float:right;
+    height: 300px;
+    width: 300px;
+}
+
 #p{
     text-align: center;
 }
