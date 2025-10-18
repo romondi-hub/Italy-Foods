@@ -1,5 +1,21 @@
 body{
     font-family: sans-serif;
+    margin: 0;
+    background-color: darkslategray;
+    color:white;
+}
+#navbar{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+#home{
+    padding: 40px 20px;
+    border-bottom: 1px solid;
+}
+#cotact{
+    padding: 40px 20px;
+    border-bottom: 1px solid;
 }
 .course-item{
     display: flex;
@@ -13,6 +29,10 @@ body{
 
 #about{
 display:flex;
+    width: 300px;
+}
+#about img{
+
 height: 300px;
 width: 300px;
 }
@@ -40,6 +60,7 @@ img{
 }
 #testimonials{
     display: flex;
-    flex-direction: column;
+}
+#testimonials img{
     width: 300px;
 }
